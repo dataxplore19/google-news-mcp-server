@@ -9,7 +9,7 @@ Ask your assistant things like:
 - "Get every article about our brand between October 1 and October 31 and tell me the overall tone."
 - "What are the top technology stories in Germany right now?"
 
-The data comes from the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast) Actor on Apify, which decodes Google News links to the original article, returns more than 100 articles per keyword, and extracts article text.
+The data comes from the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast?fpr=6vi1cs) Actor on Apify, which decodes Google News links to the original article, returns more than 100 articles per keyword, and extracts article text.
 
 > Click **Watch > Custom > Releases** at the top of this page to be notified of new features.
 
@@ -24,7 +24,7 @@ Each article comes with `title`, `source`, `published_at`, `url` (publisher URL,
 
 ## Setup
 
-You need Node.js 18 or later and an Apify API token: create a free [Apify](https://apify.com) account, then copy your token from [Settings > API & Integrations](https://console.apify.com/settings/integrations).
+You need Node.js 18 or later and an Apify API token: create a free [Apify](https://apify.com?fpr=6vi1cs) account, then copy your token from [Settings > API & Integrations](https://console.apify.com/settings/integrations).
 
 ### Claude Desktop
 
@@ -108,7 +108,7 @@ Command `npx -y google-news-mcp-server`, transport stdio, environment variable `
 - Python script: [google-news-api-python](https://github.com/dataxplore19/google-news-api-python)
 - Node.js script: [google-news-api-node](https://github.com/dataxplore19/google-news-api-node)
 - No code, in n8n: [n8n workflow templates](https://github.com/dataxplore19/n8n-google-trends-news-templates)
-- Directly on Apify: [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast)
+- Directly on Apify: [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast?fpr=6vi1cs)
 
 ## FAQ
 
@@ -126,7 +126,7 @@ It works with any client that supports MCP servers over stdio. For clients that 
 
 ## Disclosure
 
-I am the author of the Google News Scraper Actor used by this server.
+I am the author of the Google News Scraper Actor used by this server. Links to apify.com in this repository are referral links: if you create an Apify account through them, I may earn a commission at no cost to you.
 
 ## License
 
