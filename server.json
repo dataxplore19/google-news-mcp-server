@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dataxplore19/google-news-mcp-server",
+  "title": "Google News",
+  "description": "Search Google News by keyword, date, country or topic, with real URLs and full text.",
+  "repository": {
+    "url": "https://github.com/dataxplore19/google-news-mcp-server",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/data_xplorer/google-news-scraper-fast",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "google-news-mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APIFY_TOKEN",
+          "description": "Apify API token, from https://console.apify.com/settings/integrations",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

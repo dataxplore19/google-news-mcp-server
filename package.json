@@ -1,0 +1,21 @@
+{
+  "name": "google-news-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Google News: search news by keyword, date range, country or topic, with real article URLs and full text, for Claude, Cursor and other AI assistants.",
+  "mcpName": "io.github.dataxplore19/google-news-mcp-server",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "google-news-mcp-server": "index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "google-news", "news", "news-api", "media-monitoring", "claude", "cursor", "ai-agent", "apify"],
+  "repository": { "type": "git", "url": "git+https://github.com/dataxplore19/google-news-mcp-server.git" },
+  "homepage": "https://github.com/dataxplore19/google-news-mcp-server#readme",
+  "author": "dataxplore19",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "apify-client": "^2.26.0",
+    "zod": "^4.6.7"
+  }
+}
